@@ -1,0 +1,76 @@
+#registreP{
+  
+  background-color: orangered;
+  background-image: url(img/squartle.png), url(img/charmander.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: left, right;
+  
+}
+
+#registre{
+  width: 600px;
+  min-height: 650px;
+}
+
+#linkAtualiza{
+  align-self: center;
+  text-align: center;
+  color: red;
+}
+
+img{
+  max-height: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#registreTitulo{
+  position: relative;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#btnRegistrar{
+  display: block;
+  margin: 0 auto; 
+  min-width: 200px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+label{
+  border-bottom:  2px solid salmon;
+  border-left: 2px solid salmon;
+  color: aliceblue;
+  padding: 5px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#secondSquare{
+  min-height: 100px;
+  background-image: linear-gradient(yellow, orange);
+
+}
+
+thead > tr{
+  font-family: 'Press Start 2P', cursive;
+}
+
+td{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+}
+
+td > a{
+  color: red;
+}
+
+
+.titleTable{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 100px;
+}
+
+
+
